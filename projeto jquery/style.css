@@ -1,0 +1,47 @@
+* {
+    font-family: "PT Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+body{
+    text-align: center ;
+    background-color: #a1a1a1;
+}
+
+form input{
+    width: 50%;
+    height: 30px;
+    font-size: 20px;
+}
+
+button{
+    height: 35px;
+    width: 8%;
+    background-color: green;
+    border: none;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    font-size: 20px;
+}
+
+.primeiraTarefa {
+    border-bottom: solid 2px;
+    padding: 16px 0;
+}
+
+li{
+    padding-top: 16px;
+    cursor: pointer;
+}
+
+.riscado {
+    text-decoration: line-through;
+    color: red;
+    cursor: pointer;
+}
